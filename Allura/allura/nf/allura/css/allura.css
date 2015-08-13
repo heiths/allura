@@ -98,3 +98,8 @@ tr.rev div.markdown_content p {
 #phone_verification_overlay iframe {
     height: 320px;
 }
+
+#usergroup_admin td.group {
+  text-align: center;
+  line-height: 3em;
+}
