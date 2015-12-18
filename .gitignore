@@ -39,5 +39,6 @@ report.clonedigger
 ._*
 .DS_Store
 /src/
+/tmp/
 /Allura/src/
 async-disk-cache/
