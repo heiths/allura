@@ -64,7 +64,7 @@ class ContextMenu extends React.Component {
         let _this = this;
         return (
             <div className="contextMenu">
-                <ToolTip targetSelector='#top_nav_admin .contextMenu a'/>
+                <ToolTip delay={250} targetSelector='#top_nav_admin .contextMenu a'/>
                 <ul>{
                     this.props.items.map(function (o, i) {
                         return (<li key={i}>
